@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body{
+    background: url(images/bg-intro-desktop.png) no-repeat center center;
+    background-color: hsl(0, 100%, 74%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Poppins', sans-serif;
+    width: 375px;
+    color: white;
+    
+
+}
+.info{
+    width: 350px;
+    padding: 10px;
+    margin: 0px auto;
+}
+h1{
+    width: 220px;
+    margin:40px auto ;
+}
+.firstP{
+    width: 320px;
+    padding: 15px;
+    text-align: center;
+}
+.banner{
+    width: 290px;
+    margin: auto;
+    background-color: hsl(248, 32%, 49%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.one{
+    text-align: center;
+}
+.form{
+    width: 290px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+input{
+    width: 250px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(91, 86, 86);
+    margin: 5px auto;
+    margin-left: 10px;
+    
+}
+.terms{
+    color: black;
+    width:220px ;
+    margin: auto;
+    font-size: xx-small;
+    text-align: center;
+}
+.btn{
+    width: 250px;
+    padding: 15px;
+    margin: 7px auto;
+    margin-left: 10px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border-radius: 5px;
+    border: 0;
+}
+@media screen and (min-width:620px){
+  .container{
+    display: flex;
+    
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    
+
+}  
+.info{
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    
+    
+}
+.firstP{
+    width: 100%;
+
+    
+}
+h1{
+    width: 100%;
+    font-size: 3.5rem;
+    margin-top: 200px;
+    
+}
+.trying{
+    width: 40%;
+    margin-top: 140px;
+}
+.banner{
+    width: 450px;
+    padding: 10px;
+}
+.form{
+    width: 450px;
+    
+}
+input{
+    width: 410px;
+}
+.btn{
+    width: 410px;
+}
+.terms{
+    width: 400px;
+}
+
+}
+.btn:active{
+    background-color:hsl(248, 32%, 49%);
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: hsl(248, 32%, 49%);
+    cursor: pointer;
+}
+input:hover{
+    cursor: pointer;
+}
+
